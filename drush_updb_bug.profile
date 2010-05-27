@@ -27,7 +27,7 @@ function drush_updb_bug_profile_modules() {
  */
 function drush_updb_bug_profile_details() {
   return array(
-    'name' => 'CWS Drupal 6',
+    'name' => 'Drush updatedb bug reproduction',
     'description' => 'Select this profile to enable the features of the standard CWS Drupal 6 distribution.'
   );
 }
@@ -147,7 +147,6 @@ function drush_updb_bug_profile_tasks(&$task, $url) {
   install_include(array('user', 'profile'));
 
   drush_updb_bug_profile_enable_custom_theme();
-  cws_d6_profile_create_unt_welcome();
 
   // Update the menu router information.
   menu_rebuild();
