@@ -45,7 +45,7 @@ function drush_updb_bug_profile_details() {
  */
 function drush_updb_bug_profile_task_list() {
   return array(
-    'drush_updb_bug_profile_enable_custom_theme' => 'Configuring the Northtexas Theme',
+    'drush_updb_bug_profile_enable_custom_theme' => 'Configuring the Acquia Marina Theme',
   );
 }
 
