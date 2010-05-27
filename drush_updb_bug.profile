@@ -13,6 +13,8 @@ function drush_updb_bug_profile_modules() {
     'block', 'color', 'comment', 'contact', 'dblog', 'filter', 
     'help', 'menu', 'node', 'path', 'profile', 'search', 'statistics', 
     'system', 'taxonomy', 'trigger', 'update', 'upload', 'user',
+    // custom modules
+    'install_profile_api',
 
   );
 }
